@@ -10,10 +10,13 @@
 </head>
 <body>
 <header>
-
+    <div class="h_s1"><img src="./imgs/logo.png" alt=""></div>
+    <div class="h_s2"></div>
+    <div class="h_s3"></div>
 </header>
 <wrapper>
 
 </wrapper>
+.
 </body>
 </html>
