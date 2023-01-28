@@ -1,2 +1,2 @@
 # Курсач чая
-Жопа из говна
+nothing chenges/ inazuma still ethernal
