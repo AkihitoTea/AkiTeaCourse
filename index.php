@@ -18,15 +18,17 @@
     </div>
     <div class="burgar">
         <div class="burgList">
-        <a href="">Главная</a>
-        <a href="">Фильмы</a>
-        <a href="">Сериалы</a>
-        <a href="">Профиль</a>
-        <a href="">Приобретенное</a>
+            <a href="">Главная</a>
+            <a href="">Фильмы</a>
+            <a href="">Сериалы</a>
+            <a href="">Профиль</a>
+            <a href="">Приобретенное</a>
         </div>
     </div>
         <div class="h_s2"><input type="search" name="" id=""></div>
-        <div class="h_s3"></div>
+        <div class="h_s3">
+            <a href=""><img src="./imgs/user.png" alt=""></a>
+        </div>
 </header>
 <wrapper>
 
