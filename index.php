@@ -25,7 +25,10 @@
             <a href="">Приобретенное</a>
         </div>
     </div>
-        <div class="h_s2"><input type="search" name="" id=""></div>
+        <div class="h_s2">
+            <input type="search" name="" id="">
+            <img src="./imgs/searchBtn.png" alt="">
+        </div>
         <div class="h_s3">
             <a href=""><img src="./imgs/user.png" alt=""></a>
         </div>

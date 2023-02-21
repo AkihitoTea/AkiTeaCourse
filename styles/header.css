@@ -1,9 +1,10 @@
 header{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 2%;
-    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
     height: 70px;
     position: fixed;
 }
@@ -42,4 +43,23 @@ header{
     font-size: 30px;
     color: #8a8a8a;
     font-family: Bahnschrift;
+}
+.h_s2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h_s2 input{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+.h_s2 img{
+    height: 30px;
+    margin-left: 2%;
+}
+.h_s3 img{
+    height: 60px;
+    margin-right: 100px;
 }
