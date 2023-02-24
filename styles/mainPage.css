@@ -1,0 +1,66 @@
+.t3Films{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 300px;
+}
+.t3fList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.t3fList img{
+    width: 30%;
+}
+.t3Films h1{
+    color: #F3F3F2;
+    font-family: Bahnschrift;
+    font-size: 36px;
+}
+
+
+
+.t3Serials{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.t3sList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.t3sList img{
+    width: 30%;
+}
+.t3Serials h1{
+    color: #F3F3F2;
+    font-family: Bahnschrift;
+    font-size: 36px;
+}
+
+
+
+.new{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.nList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.nList img{
+    width: 15%;
+}
+.new h1{
+    color: #F3F3F2;
+    font-family: Bahnschrift;
+    font-size: 36px;
+}

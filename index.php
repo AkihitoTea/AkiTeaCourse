@@ -38,12 +38,30 @@
     <div class="t3Films">
         <h1>Топ 3 фильма</h1>
         <div class="t3fList">
-            <img src="./content/" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="./content/films/1/1w.png" alt="">
+            <img src="./content/films/2/2w.png" alt="">
+            <img src="./content/films/3/3w.png" alt="">
         </div>
     </div>
-
+    <div class="t3Serials">
+        <h1>Топ 3 сериала</h1>
+        <div class="t3sList">
+            <img src="./content/serials/1/1w.png" alt="">
+            <img src="./content/serials/2/2w.png" alt="">
+            <img src="./content/serials/3/3w.png" alt="">
+        </div>
+    </div>
+    <div class="new">
+        <h1>Новинки</h1>
+        <div class="nList">
+            <img src="./content/serials/9/9h.png" alt="">
+            <img src="./content/serials/1/1h.png" alt="">
+            <img src="./content/films/7/7h.png" alt="">
+            <img src="./content/films/5/5h.png" alt="">
+            <img src="./content/serials/4/4h.png" alt="">
+            <img src="./content/films/3/3h.png" alt="">
+        </div>
+    </div>
 
 </body>
 </html>

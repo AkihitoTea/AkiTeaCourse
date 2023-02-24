@@ -7,8 +7,9 @@ header{
     padding-right: 2%;
     height: 70px;
     position: fixed;
-    background-color: #222327;
+    background-color: #353B43;
     top: 0;
+    z-index: 3;
 }
 .hambBtn{
     width: 50px;
@@ -24,12 +25,12 @@ header{
 }
 .burgar{
     position: fixed;
-    background-color: rgba(34, 35, 39, 0.77);
+    background-color: #353B43;
     border-radius: 20px;
     height: 300px;
     width: 300px;
     z-index: 0;
-    margin-top: 170px;
+    margin-top: 180px;
 }
 .burgList{
     display: flex;
@@ -43,16 +44,18 @@ header{
     text-decoration: none;
     text-align: left;
     font-size: 30px;
-    color: #8a8a8a;
+    color: #F3F3F2;
     font-family: Bahnschrift;
 }
 .h_s2{
     display: flex;
+    width: 30%;
     align-items: center;
     justify-content: space-between;
 }
 .h_s2 input{
-    width: 500px;
+    width: 400%;
+    max-width: 500px;
     height: 50px;
     border-radius: 10px;
     border: none;
@@ -63,5 +66,7 @@ header{
 }
 .h_s3 img{
     height: 60px;
-    margin-right: 100px;
+}
+.h_s3{
+    margin-right: 5%;
 }
