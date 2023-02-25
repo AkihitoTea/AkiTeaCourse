@@ -34,7 +34,7 @@
             <a href=""><img src="./imgs/user.png" alt=""></a>
         </div>
 </header>
-
+<wrapper>
     <div class="t3Films">
         <h1>Топ 3 фильма</h1>
         <div class="t3fList">
@@ -62,6 +62,6 @@
             <img src="./content/films/3/3h.png" alt="">
         </div>
     </div>
-
+</wrapper>
 </body>
 </html>

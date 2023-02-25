@@ -1,0 +1,69 @@
+.t5Serials{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+    width: 80%;
+}
+.t5Serials img{
+    width: 15%;
+}
+.firstSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondSection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.ssTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ssTop input{
+    width: 400%;
+    max-width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-family: Bahnschrift;
+    font-size: 24px;
+}
+.ssFilters{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150%;
+}
+.ssFilters button{
+    background-color: #8C97BD;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: Bahnschrift;
+    font-size: 24px;
+}
+.ssBottom{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.ssLine{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.ssLine img{
+    width: 15%;
+    margin-bottom: 40px;
+}

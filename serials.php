@@ -8,6 +8,7 @@
     <title>Сериалы</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/serials.css">
     <script src=""></script>
 </head>
 <body>
@@ -35,8 +36,44 @@
     </div>
 </header>
 <wrapper>
-
+    <div class="firstSection">
+        <div class="t5Serials">
+            <img src="./content/serials/1/1h.png" alt="">
+            <img src="./content/serials/2/2h.png" alt="">
+            <img src="./content/serials/3/3h.png" alt="">
+            <img src="./content/serials/4/4h.png" alt="">
+            <img src="./content/serials/5/5h.png" alt="">
+            <img src="./content/serials/6/6h.png" alt="">
+        </div>
+    </div>
+    <div class="secondSection">
+        <div class="ssTop">
+            <input type="text">
+            <div class="ssFilters">
+                <button>1 filter</button>
+                <button>2 filter</button>
+                <button>3 filter</button>
+                <button>4 filter</button>
+                <button>5 filter</button>
+            </div>
+        </div>
+        <div class="ssBottom">
+            <div class="ssLine">
+                <img src="./content/serials/1/1h.png" alt="">
+                <img src="./content/serials/2/2h.png" alt="">
+                <img src="./content/serials/3/3h.png" alt="">
+                <img src="./content/serials/4/4h.png" alt="">
+                <img src="./content/serials/5/5h.png" alt="">
+            </div>
+            <div class="ssLine">
+                <img src="./content/serials/1/1h.png" alt="">
+                <img src="./content/serials/2/2h.png" alt="">
+                <img src="./content/serials/3/3h.png" alt="">
+                <img src="./content/serials/4/4h.png" alt="">
+                <img src="./content/serials/5/5h.png" alt="">
+            </div>
+        </div>
+    </div>
 </wrapper>
-.
 </body>
 </html>
