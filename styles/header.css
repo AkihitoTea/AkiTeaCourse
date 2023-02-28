@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
 header{
     width: 100%;
     display: flex;
@@ -43,9 +45,9 @@ header{
 .burgList a{
     text-decoration: none;
     text-align: left;
-    font-size: 30px;
+    font-size: 36px;
     color: #F3F3F2;
-    font-family: Bahnschrift;
+    font-family: 'Neucha';
 }
 .h_s2{
     display: flex;
@@ -59,7 +61,7 @@ header{
     height: 50px;
     border-radius: 10px;
     border: none;
-    font-family: Bahnschrift;
+    font-family: 'Neucha';
     font-size: 24px;
 }
 .h_s2 img{
