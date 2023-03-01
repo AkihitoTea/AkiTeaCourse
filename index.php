@@ -18,7 +18,7 @@
         <img src="./imgs/hamb.png" alt="" class="hambBtn">
         <img src="./imgs/logo.png" alt="" class="headLogo">
     </div>
-    <div class="burgar">
+    <div class="menu">
         <div class="burgList">
             <a href="./index.php">Главная</a>
             <a href="./films.php">Фильмы</a>
@@ -66,3 +66,4 @@
 </wrapper>
 </body>
 </html>
+
