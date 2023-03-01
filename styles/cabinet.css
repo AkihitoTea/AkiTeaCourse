@@ -1,19 +1,245 @@
 * h2{
     font-family: 'Neucha';
     color: #F3F3F2;
+    margin: 0;
 }
 * h3{
     font-family: 'Neucha';
     color: #F3F3F2;
+    margin: 0;
+
 }
 wrapper{
     display: flex;
-    align-items: center;
     justify-content: center;
     margin-top: 100px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.cabinet__top{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1100px;
 }
 .cab__left{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 500px;
+}
+.avatar img{
+    width: 150px;
+    margin-bottom: 50px;
+
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+.input-file {
+    position: relative;
+    display: inline-block;
+}
+.input-file span {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    font-size: 14px;
+    vertical-align: middle;
+    color: rgb(255 255 255);
+    text-align: center;
+    border-radius: 4px;
+    background-color: #353B43;
+    line-height: 22px;
+    height: 40px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: none;
+    margin: 0;
+    transition: background-color 0.2s;
+    font-family: neucha;
+    font-size: 20px;
+}
+.input-file input[type=file] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+/* Focus */
+.input-file input[type=file]:focus + span {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+/* Hover/active */
+.input-file:hover span {
+    background-color: #59be6e;
+}
+.input-file:active span {
+    background-color: #2E703A;
+}
+
+/* Disabled */
+.input-file input[type=file]:disabled + span {
+    background-color: #eee;
+}
+.cab__warn{
+    display: flex;
+    flex-direction: column;
+}
+.cab__warn a{
+    font-family: 'Neucha';
+    color: #F3F3F2;
+    margin: 0;
+    font-size: 24px;
+}
+.cab__mid{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cab__right{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mid__inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.mid__inputs *{
+    margin-bottom: 10px;
+}
+.mid__inputs * input{
+    font-family: Neucha;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    height: 30px;
+    width: 100%;
+    max-width: 300px;
+}
+.mAbout__you input{
+    font-family: Neucha;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    max-width: 500px;
+    height: 250px;
+    margin-right: 50px;
+}
+.mAbout__you h3{
+    max-width: 500px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+.mAbout__interest input{
+    font-family: Neucha;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    height: 30px;
+    width: 100%;
+    max-width: 500px;
+    margin-right: 50px;
+}
+.mAbout__interest h3{
+    max-width: 500px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+.cabR__top{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.cabR__top select{
+    font-family: Neucha;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    height: 30px;
+    width: 100%;
+    max-width: 230px;
+    margin-bottom: 30px;
+}.cabR__top input[type=date]{
+     font-family: Neucha;
+     font-size: 20px;
+     border: none;
+     border-radius: 7px;
+     height: 30px;
+ }
+.CRT__date label{
+    font-family: Neucha;
+    font-size: 20px;
+    color: #F3F3F2;
+}
+.cab__right input[type=text]{
+    font-family: Neucha;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    height: 30px;
+    width: 100%;
+    max-width: 230px;
+}
+.cab__right button{
+    margin-top: 100px;
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    font-family: Neucha;
+    color: #F3F3F2;
+    background-color: #312e45;
+    border: none;
+    border-radius: 7px;
+    font-size: 24px;
+}
+.cabinet__top{
+    background-color: #242132;
+    border-radius: 15px;
+    padding-top: 15px;
+    max-height: 1000px;
+}
+.cabinet__buyed{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.cabinet__buyed h1{
+    font-family: Neucha;
+    color: #F3F3F2;
+    font-size: 36px;
+}
+.buyed__list img{
+    width: 200px;
+    margin-bottom: 40px;
+}
+.buyed__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    flex-wrap: wrap;
 }
