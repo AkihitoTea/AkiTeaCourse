@@ -8,7 +8,8 @@
     <title>Вход</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/header.css">
-    <script src=""></script>
+    <link rel="stylesheet" href="./styles/login.css">
+    <script src="./scripts/regToLog.js" defer></script>
 </head>
 <body>
 <header>
@@ -35,6 +36,26 @@
     </div>
 </header>
 <wrapper>
+    <div class="loginForm">
+        <form action="">
+            <input type="text" placeholder="Логин">
+            <input type="password" placeholder="Пароль">
+            <button>Войти</button>
+        </form>
+        <h2>Еще не зарегестрированы?</h2>
+        <button class="toRegBtn" onclick="toReg()">Зарегистрироваться</button>
+    </div>
+    <div class="registerForm">
+        <form action="">
+            <input type="text" placeholder="Логин">
+            <input type="text" placeholder="Email">
+            <input type="password" placeholder="Пароль">
+            <input type="password" placeholder="Повторите пароль">
+            <button>Зарегистрироваться</button>
+        </form>
+        <h2>Уже зарегестрированы?</h2>
+        <button class="toLogBtn" onclick="toLog()">Войти</button>
+    </div>
 </wrapper>
 </body>
 </html>
