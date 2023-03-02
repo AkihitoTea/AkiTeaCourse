@@ -1,3 +1,6 @@
+body{
+    height: 2000px;
+}
 * h2{
     font-family: 'Neucha';
     color: #F3F3F2;
@@ -216,7 +219,7 @@ wrapper{
     font-size: 24px;
 }
 .cabinet__top{
-    background-color: #242132;
+    background-color: #353b42;
     border-radius: 15px;
     padding-top: 15px;
     max-height: 1000px;

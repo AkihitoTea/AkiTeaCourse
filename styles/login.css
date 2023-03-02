@@ -1,0 +1,148 @@
+wrapper{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    background-color: #353B43;
+    border-radius: 10px;
+    display: none;
+}
+.loginForm form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.loginForm form input{
+    font-family: Neucha;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    height: 50px;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 50px;
+}
+.loginForm form button{
+    margin-top: 70px;
+    width: 100%;
+    max-width: 250px;
+    height: 50px;
+    font-family: Neucha;
+    color: #F3F3F2;
+    background-color: #7d7a90;
+    border: none;
+    border-radius: 7px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.loginForm h2{
+    font-family: Neucha;
+    color: #F3F3F2;
+    font-size: 36px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+.toRegBtn{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 250px;
+    height: 50px;
+    font-family: Neucha;
+    color: #F3F3F2;
+    background-color: #7d7a90;
+    border: none;
+    border-radius: 7px;
+    font-size: 24px;
+}
+.loginForm form button:hover{
+    background-color: #a8a5bf;
+}
+.toRegBtn:hover{
+    background-color: #a8a5bf;
+}
+
+
+
+
+/*Register form*/
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    background-color: #353B43;
+    border-radius: 10px;
+}
+.registerForm form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.registerForm form input{
+    font-family: Neucha;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    height: 50px;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 50px;
+}
+.registerForm form button{
+    margin-top: 70px;
+    width: 100%;
+    max-width: 250px;
+    height: 50px;
+    font-family: Neucha;
+    color: #F3F3F2;
+    background-color: #7d7a90;
+    border: none;
+    border-radius: 7px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.registerForm h2{
+    font-family: Neucha;
+    color: #F3F3F2;
+    font-size: 36px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+.toLogBtn{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 250px;
+    height: 50px;
+    font-family: Neucha;
+    color: #F3F3F2;
+    background-color: #7d7a90;
+    border: none;
+    border-radius: 7px;
+    font-size: 24px;
+}
+.registerForm form button:hover{
+    background-color: #a8a5bf;
+}
+.toLogBtn:hover{
+    background-color: #a8a5bf;
+}
+
+
+
+
+
+

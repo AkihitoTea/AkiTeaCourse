@@ -13,18 +13,18 @@
 </head>
 <body>
 <header>
-    <div class="h_s1">
+    <script src="./scripts/burgMenu.js"></script>
+    <div class="h_s1" onmouseover="menuShow()" onmouseout="menuHide()">
         <img src="./imgs/hamb.png" alt="" class="hambBtn">
         <img src="./imgs/logo.png" alt="" class="headLogo">
     </div>
-    <div class="menu">
+    <div class="menu" onmouseout="menuHide()" onmouseover="menuShow()">
         <div class="burgList">
             <a href="./index.php">Главная</a>
             <a href="./films.php">Фильмы</a>
             <a href="./serials.php">Сериалы</a>
             <a href="./cabinet.php">Профиль</a>
-            <a href="./cabinet.php">Приобретенное</a>
-
+            <a href="./cabinet.php?scroll=on">Приобретенное</a>
         </div>
     </div>
     <div class="h_s2">
