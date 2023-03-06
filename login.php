@@ -13,7 +13,7 @@
 </head>
 <body>
 <header>
-    <<script src="./scripts/burgMenu.js"></script>
+    <script src="./scripts/burgMenu.js"></script>
     <div class="h_s1" onmouseover="menuShow()" onmouseout="menuHide()">
         <img src="./imgs/hamb.png" alt="" class="hambBtn">
         <img src="./imgs/logo.png" alt="" class="headLogo">
@@ -27,10 +27,11 @@
             <a href="./cabinet.php?scroll=on">Приобретенное</a>
         </div>
     </div>
-    <div class="h_s2">
-        <input type="search" name="" id="">
-        <img src="./imgs/searchBtn.png" alt="">
-    </div>
+    <script src="./scripts/completeSearch.js" defer></script>
+        <div class="h_s2">
+                <input class="searchInput" type="search" name="search" id="" >
+                <button onclick="startSearch()"><img src="./imgs/searchBtn.png" alt=""></button>
+        </div>
     <div class="h_s3">
         <a href="./cabinet.php"><img src="./imgs/user.png" alt=""></a>
     </div>

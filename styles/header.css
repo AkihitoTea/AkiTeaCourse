@@ -18,6 +18,7 @@ header{
     width: 50px;
 }
 .headLogo{
+    display: none;
     width: 170px;
 }
 .h_s1{
@@ -52,11 +53,17 @@ header{
     color: #F3F3F2;
     font-family: 'Neucha';
 }
-.h_s2{
+.h_s2 form {
     display: flex;
     width: 30%;
     align-items: center;
     justify-content: space-between;
+}
+.h_s2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .h_s2 input{
     width: 400%;
@@ -67,9 +74,14 @@ header{
     font-family: 'Neucha';
     font-size: 24px;
 }
-.h_s2 img{
+.h_s2 button img{
     height: 30px;
     margin-left: 2%;
+}
+.h_s2 button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 .h_s3 img{
     height: 60px;

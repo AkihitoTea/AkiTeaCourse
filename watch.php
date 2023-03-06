@@ -27,10 +27,11 @@
             <a href="./cabinet.php?scroll=on">Приобретенное</a>
         </div>
     </div>
-    <div class="h_s2">
-        <input type="search" name="" id="">
-        <img src="./imgs/searchBtn.png" alt="">
-    </div>
+    <script src="./scripts/completeSearch.js" defer></script>
+        <div class="h_s2">
+                <input class="searchInput" type="search" name="search" id="" >
+                <button onclick="startSearch()"><img src="./imgs/searchBtn.png" alt=""></button>
+        </div>
     <div class="h_s3">
         <a href="./cabinet.php"><img src="./imgs/user.png" alt=""></a>
     </div>
